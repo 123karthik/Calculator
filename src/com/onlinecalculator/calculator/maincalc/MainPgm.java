@@ -6,6 +6,11 @@ import com.onlinecalculator.calculator.calctypes.*;
 
 public class MainPgm {
 public static void main(String args[]){
+	
+	BasicCalc bc=new BasicCalc();
+	bc.userInputs();
+	bc.menu();
+	bc.performOperation();
         char type;
         type=getType();
         if(type=='a')
@@ -26,6 +31,7 @@ public static void main(String args[]){
         
     static char getType()
     {
-    	
+    
+    	return 'a';
     }
 }
